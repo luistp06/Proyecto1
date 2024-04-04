@@ -52,15 +52,16 @@
             <a class="CONTACTANOS" href="#">CONTÁCTANOS</a>
             <a class="ayuda" href="#">¿como te podemos ayudar?</a>
           </div>
-          <div class="ingresar">
+          <div class="local_shortcut">
             <img src="assets/usuario.png" alt="ingresar cuenta" />
             <p>Ingresar</p>
           </div>
-          <div class="carro">
+          <div class="local_shortcut" id="carro">
             <img src="assets/carrito-de-compras.png" alt="cesta de la compra" />
             <p>Carro</p>
           </div>
         </section>
+        <img src="./assets/menu.png" alt="menu" class="menu">
       </section>
       <nav>
         <ul class="nav_list">
@@ -109,185 +110,325 @@
         alt="teclado akai"
         class="akai"
       />
-      <h2>Disfruta de todas nuestras ventajas</h2>
+      <h2 id="desktop">Disfruta de todas nuestras ventajas</h2>
+      <h2 id="mobile">Categorías</h2>
       <section class="red_icons">
         <div>
-          <img src="assets/ecommerce (2).png" alt="ecommerce" class="red_icon">
+          <img src="assets/ecommerce.png" alt="ecommerce" class="red_icon">
           <p>Ecommerce mejor valorado</p>
         </div>
         <div>
-          <img src="assets/proyectosyempresas (2).png" alt="proyectos y empresas" class="red_icon">
+          <img src="assets/proyectosyempresas.png" alt="proyectos y empresas" class="red_icon">
           <p>Proyectos y empresas</p>
         </div>
         <div>
-          <img src="assets/5años (2).png" alt="5 años de garantia" class="red_icon">
+          <img src="assets/5años.png" alt="5 años de garantia" class="red_icon">
           <p>5 años de garantía</p>
         </div>
         <div>
-          <img src="assets/pagoseguro (2).png" alt="pago seguro" class="red_icon">
-          <p>Pago seguro</p>
+          <img src="assets/pagoseguro.png" alt="pago seguro" class="red_icon">
+          <p>Pago </p>
+          <p>seguro</p>
         </div>
         <div>
-          <img src="assets/30 (2).png" alt="30 dias de devolución" class="red_icon">
+          <img src="assets/30.png" alt="30 dias de devolución" class="red_icon">
           <p>30 días de devolución</p>
         </div>
         <div>
           <img src="assets/asistenciatecnica1.png" alt="asistencia técnica" class="red_icon">
-          <p>Soporte técnico</p>
+          <p>Soporte </p>
+          <p>técnico</p>
         </div>
       </section>
       <section class="categorias">
-        <Ul>
-          <li><a href="https://www.madridhifi.com/sonido/profesional/interface-de-audio/">
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/1/4/741/photos/slider/Interface de Audio 359x100.jpg" data-ll-status="entered">
-              <p>Interface de audip</p>
-            </button>
+        <ul>
+          <li>
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/profesional/interface-de-audio/">
+                <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/1/4/741/photos/slider/Interface de Audio 359x100.jpg" alt="interface de audio">
+              </a>
+              </div>
+              <p>Interface de audio</p>
+          </li>
+          <li>
+            <div class="circle">
+              <a href="https://www.madridhifi.com/instrumentos-musicales/guitarras/electricas/">
+            <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/7/273/photos/slider/Guitarras Eléctricas 359x100.jpg" alt="guitarra eléctrica">
           </a>
+          </div>
+            <p>Guitarras Eléctricas</p>
+        </li>
+          <li> 
+            <div class="circle">
+              <a href="https://www.madridhifi.com/equipamiento-dj/controladores-dj/">
+            <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/2/3/732/photos/slider/Controladores DJ 359x100.jpg" alt="controladora dj" >
+          </a>
+          </div>
+            <p>Controladores Dj</p>
           </li>
-          <li> <button>
-            <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/7/273/photos/slider/Guitarras Eléctricas 359x100.jpg" data-ll-status="entered">
-            <p>Interface de audip</p>
-          </button></li>
-          <li> <button>
-            <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/2/3/732/photos/slider/Controladores DJ 359x100.jpg" data-ll-status="entered">
-            <p>Interface de audip</p>
-          </button></li>
+          <li>           
+              <div class="circle">
+                <a href="https://www.madridhifi.com/instrumentos-musicales/guitarras/guitarras-acusticas/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/6/8/1186/photos/slider/Guitarras Acústicas 359x100.jpg" alt="guitarra acústica">
+            </a>
+            </div>
+              <p>Guitarras Acústicas</p>           
+          </li>
+          <li>             
+              <div class="circle">
+                <a href="https://www.madridhifi.com/instrumentos-musicales/pedales-guitarra/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/5/1/1215/photos/slider/Pedales para Guitarra y Bajo 359x100.jpg" alt="pedal guitarra">
+            </a>
+            </div>
+             <p>Pedales para guitarra </p>         
+          </li>
+          <li>     
+              <div class="circle">
+                <a href="https://www.madridhifi.com/instrumentos-musicales/pianos-digitales/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/4/9/194/photos/slider/Pianos Digitales 359x100.jpg" alt="piano digital">
+            </a>
+            </div>
+              <p>Pianos Digitales</p>    
+          </li>
+          <li>      
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/profesional/altavoces/amplificados/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/7/9/497/photos/slider/Altavoces Amplificados 359x100.jpg" alt="altavoces amplificados">
+            </a>
+            </div>
+              <p>Altavoces Amplificados</p>           
+          </li>
+          <li>         
+           <div class="circle">
+                <a href="https://www.madridhifi.com/instrumentos-musicales/teclados-portatiles/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/7/4/147/photos/slider/Teclados Portatiles 359x100.jpg" alt="teclados portatiiles">
+            </a>
+            </div>
+              <p>Teclados Portátiles</p>         
+          </li>
+          <li>       
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/profesional/mesas-estudio-amplificadas/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/9/4/749/photos/slider/Mesas Mezclas de Estudio-Directo 359x100.jpg" alt="mesa de mezcla">
+            </a>
+            </div>
+              <p>Mesas de mezclas</p>         
+          </li>
+          <li>  
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/microfonos/micros-estudio-directo/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/6/163/photos/slider/Micrófonos de Estudio 359x100.jpg" alt="micrófono">
+            </a>
+            </div>
+              <p>Micrófonos de Estudio</p>   
+          </li>
+          <li> 
+              <div class="circle">
+                <a href="https://www.madridhifi.com/instrumentos-musicales/sintetizadores/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/5/7/275/photos/slider/Sintetizadores 359x100.jpg" alt="sintetizador">
+            </a>
+            </div>
+              <p>Sintetizadores</p>         
+          </li>
+          <li>       
+              <div class="circle">
+                <a href="https://www.madridhifi.com/instrumentos-musicales/guitarras/amplificador-guitarra/electrica/combos/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/6/0/10106/photos/slider/Combo Guitarra Eléctrica 359x100.jpg" alt="combo guitarra eléctrica">
+            </a>
+            </div>
+              <p>Combos Guitarra Eléctrica</p>         
+          </li>
+          <li>           
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/profesional/monitores-estudio/activos/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/2/3/732/photos/slider/Monitores Estudio Activos 359x100.jpg" alt="monitores estudio">
+            </a>
+            </div>
+             <p>Monitores Estudio</p>                        
+          </li>
+          <li>         
+              <div class="circle">
+                <a href="https://www.madridhifi.com/instrumentos-musicales/controladores-teclados-midi/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/8/4/148/photos/slider/Controladores Midi y Teclados 359x100.jpg" alt="controlador midi">
+            </a>
+            </div>
+              <p>Controladores Midi</p>                     
+          </li>
+          <li>          
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/alta-fidelidad-hifi/home-cinema/receptores-av/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/6/5/56/photos/slider/Receptores AV 359x100.jpg" alt="receptor av">
+            </a>
+            </div>
+              <p>Receptores Av</p>                     
+          </li>
+          <li>         
+            <div class="circle">
+                <a href="https://www.madridhifi.com/instrumentos-musicales/baterias/electronicas/sets/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/9/4/10049/photos/slider/Set Batería Electrónica 359x100.jpg" alt="bateria electronica">
+            </a> 
+            </div>
+              <p>Baterías Electrónicas</p>                    
+          </li>
+          <li>          
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/profesional/altavoces/bateria/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/6/3/10036/photos/slider/Altavoces con Bateria 359x100.jpg" alt="altavoz con bateria">
+            </a>
+            </div>
+              <p>Altavoces con Batería</p>                       
+          </li>
+          <li>           
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/auriculares/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/1/113/photos/slider/Auriculares 359x100.jpg" alt="auriculares">
+            </a>
+            </div>
+              <p>Auriculares</p>               
+          </li>
+          <li>          
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/alta-fidelidad-hifi/giradiscos/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/2/9/92/photos/slider/1_Giradiscos_Tocadiscos.jpg" alt="giradiscos">
+            </a>
+            </div>
+              <p>Giradiscos-Tocadiscos</p>                      
+          </li>
+          <li>           
+              <div class="circle">
+                <a href="https://www.madridhifi.com/equipamiento-dj/mezcladores/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/7/7/477/photos/slider/2 Mezcladores_Dj.jpg" alt="mezcladora dj">
+              </a>
+            </div>
+              <p>Mezcladores Dj</p>                    
+          </li>
+          <li>       
+              <div class="circle">
+                <a href="https://www.madridhifi.com/soporte/soportes-guitarra/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/5/0/1305/photos/slider/3_Soportes_Guitarra.jpg" alt="soporte guitarra">
+            </a>
+            </div>
+              <p>Soportes guitarra</p>                    
+          </li>
+          <li>          
+              <div class="circle">
+                <a href="https://www.madridhifi.com/equipamiento-dj/cd-dj/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/8/483/photos/slider/4_CD_Dj.jpg" alt="cd dj">
+            </a>
+            </div>
+              <p>CD Dj</p>                     
+          </li>
           <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/6/8/1186/photos/slider/Guitarras Acústicas 359x100.jpg" alt="">
-              <p></p>
-            </button>
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/audio-portatil/altavoces-bluetooth-nfc/">
+              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/8/1283/photos/slider/5_Altavoces_Bluetooth_NFC.jpg" alt="altavoces bluetooth">
+            </a>
+            </div>
+              <p>Altavoces Bluetooth NFC</p>
           </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/5/1/1215/photos/slider/Pedales para Guitarra y Bajo 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/4/9/194/photos/slider/Pianos Digitales 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/7/9/497/photos/slider/Altavoces Amplificados 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/7/4/147/photos/slider/Teclados Portatiles 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/9/4/749/photos/slider/Mesas Mezclas de Estudio-Directo 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/6/163/photos/slider/Micrófonos de Estudio 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/5/7/275/photos/slider/Sintetizadores 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/6/0/10106/photos/slider/Combo Guitarra Eléctrica 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/2/3/732/photos/slider/Monitores Estudio Activos 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/8/4/148/photos/slider/Controladores Midi y Teclados 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/6/5/56/photos/slider/Receptores AV 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/9/4/10049/photos/slider/Set Batería Electrónica 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/6/3/10036/photos/slider/Altavoces con Bateria 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/1/113/photos/slider/Auriculares 359x100.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/2/9/92/photos/slider/1_Giradiscos_Tocadiscos.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/7/7/477/photos/slider/2 Mezcladores_Dj.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/5/0/1305/photos/slider/3_Soportes_Guitarra.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/8/483/photos/slider/4_CD_Dj.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/3/8/1283/photos/slider/5_Altavoces_Bluetooth_NFC.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/0/7/770/photos/slider/6_Microfonos_Inalambricos_Mano.jpg" alt="">
-              <p></p>
-            </button>
-          </li>
-        
-        </Ul>
-
+          <li> 
+              <div class="circle">
+                <a href="https://www.madridhifi.com/sonido/microfonos/micros-inalambricos/mano/">
+                <img class="cat" src="https://www.madridhifi.com/crm/documents/categorie/0/7/770/photos/slider/6_Microfonos_Inalambricos_Mano.jpg" alt="microfono inalámbrico">
+                </a>
+            </div>
+              <p>Micrófonos Inalámbricos de Mano</p>
+          </li>   
+        </ul>
       </section>      
     </main>
     <footer>
-      <section class="footer1"></section>
-      <section class="footer2"></section>
-      <section class="footer3"></section>
+      <section class="footer1">
+        <div id="media">
+          <img src="https://www.madridhifi.com/public/img/logonuevo-white-madridhifi.png" alt="logo madridhifi" class="logof">
+          <p>telf.: 91 758 55 34</p>
+          <p>Email: atenciónalcliente@madridhifi.com</p>
+          <div id="social">
+            <img src="./assets/youtube.png" alt="youtube">
+            <img src="./assets/instagram.png" alt="instagram">
+            <img src="./assets/linkedin.png" alt="linkedin">
+            <img src="./assets/facebook.png" alt="facebook">
+          </div>
+        </div>
+        <div class="sec_footer" id="informacion">
+          <h3>Información</h3>
+          <ul>
+            <li>
+              <a href="#">Condiciones de compra</a>
+              </li>
+              <li>
+                <a href="#">Posventa y garantia</a>
+              </li>
+              <li>
+              <a href="#">Devoluciones</a>
+            </li>
+            <li>
+              <a href="#">Preguntas Frecuentes Faq</a>
+            </li>
+              <li>
+              <a href="#">Politica de Privacidad y Aviso legal</a>
+            </li>
+            <li>
+              <a href="#">Condiciones de uso</a>
+            </li>
+            <li>
+              <a href="#">Política de Cookies</a>
+            </li>
+            <li>
+              <a href="#">nuestras marcas</a>
+            </li>
+            <li>
+              <a href="#">Mapa web</a>
+            </li>
+            <li>
+              <a href="#">Canal Ético</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sec_footer" id="interes">
+          <h3>Categorías que te pueden interesar</h3>
+          <ul>
+          <li>
+          <a href="#">Guitarras eléctricas</a>
+        </li>
+        <li>
+          <a href="#">Guitarras acústicas</a>
+        </li>
+        <li>
+          <a href="#">Giradiscos</a>
+        </li>
+        <li>
+          <a href="#">Bajod eléctricos</a>
+        </li>
+        <li>
+          <a href="#">Receptores AV</a>
+        </li>
+      </ul>
+        </div>
+        <div class="sec_footer" id="marcas">
+          <h3>Algunas de nuestras marcas</h3>
+          <ul>
+          <li>
+          <a href="#">Yamaha Music</a>
+        </li>
+        <li>
+          <a href="#">Fender</a>
+        </li>
+        <li>
+          <a href="#">Roland</a>
+        </li>
+        <li>
+          <a href="#">Bose</a>
+        </li>
+        <li>
+          <a href="#">Ibanez</a>
+        </li>
+      </ul>
+        </div>
+      </section>
+      <section class="footer2">
+        <p>©2023 | Copyright © 2023 Madrid Hifi. Todos los derechos reservados.</p>
+      </section>
     </footer>
   </body>
 </html>
